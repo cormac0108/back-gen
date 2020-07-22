@@ -1,0 +1,11 @@
+Open source contribution 2 
+
+Hacktoberfest project ---- project repository -- animation nation CSS --- we fork the repo -- then
+git clone the repository --- then read the repo instructions of the project, cd into animation nation folder
+then   sublime .  in your terminal to open it in sublime ... move your art into the art folder... 
+you can do this in the GUI.   no make a change to the incluide.js file   to include your work.
+make one part link to you artwork and details.    then make a pull request.  create these changes on a new branch
+git checkout -b animatron   .... git add .   git commit -m "adding my work"  ... git push origin animatron 
+now go back to the repo and you see you havve a compare pull request,    please add me to the list @royranger
+then the management team will be able to merge for you.   -- this is a playground .. 
+go check the repo - youll see your thing once it gets merged.   OS contribution ! collaboration FTW. 

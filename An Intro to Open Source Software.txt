@@ -1,0 +1,19 @@
+ 
+
+Open Source software is software with source code that anyone can inspect, modify, and enhance. 
+OS projects. sharing information. improve software. win win . Linux OS ... for example. 
+Lots of servers run Linux.  Open souurce contributions. 
+improve your resume.  os projects. ZTM repository. Testing ground. COmmunity - get started guideline. 
+ZTM start here guidelines  ---- add your names to the contributors list. CONTRIBUTORS.md 
+Fork the project to your profile. clone the repository to your device. using git clone URL 
+then cd into it.    and open it in your fdfavorite text editor .... sublime .   or code . 
+Put your name at the very end...   git checkout -b test   --- to create a new branch called test, 
+now add your name to the cont list. 
+now do git status   to see the files.... then do git diff     to see what changes you have made.. 
+
+git add .     git commit -m "add"   .  git push origin master    (pushes to the origin, meaning the repository
+that you forked from)   instead do git push origin test   --- to push to your test branch 
+click new pull request.   now you can see that you are part of the pull requests.   
+
+no when you get merged. ZT< badge will show up on your account as an organization.   Next go and contribute 
+to other OS projectsg

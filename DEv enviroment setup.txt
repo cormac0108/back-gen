@@ -1,0 +1,11 @@
+
+
+How to set up your developer enviroment. 
+you can customize you IDE  using preferences.   Use material theme on github 
+command + shift + p   to access your color palette.  Then you can install it. 
+install packages. package control. search for material theme.  then close and re open sublime text. 
+
+VS-Code   - a really awesome feature is Inntellisense. It gives suggestiions. and a debug feature. We 
+can open up the terminal in here.  2 plugins. Extensions -  Quokka,js  and  CTRL +Shift +p 
+quokka - it evauluates the script.  another one is indenticator. extension. You can change the color theme 
+aswell.  Customer your code editor however you want its all personal. 

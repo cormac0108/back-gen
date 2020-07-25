@@ -1,0 +1,70 @@
+
+
+How do we get an npm package from the registry.  React.js  for example.  LTS -  long term support
+We need NOde.JS.     windows installer.  Node js - allows us to run js outside of the browser. 
+V8 engine js engine.  Node uses the v8 engine that chrome browser uses.   
+go to the terminal and type   npm -v    to check if everything is working.   node -v  
+to check if you have node.js installed. 
+ npm install npm@latest -g    to install latest version of npm.    npm install react
+ if you get permisiion errors it means whatever user you are logged in as on your device does not have 
+ permission --- whicch means youll have to run these commands as the administrator. which means
+ youd simply do     sudo npm install react           npm init         creates a package.json file. 
+ then keep entering info about the project and pressing enter.     now you have a package.json file. 
+ .json   - is a file format.   with this comes alot of power.     
+ node --- future install.   get a version higher than the LTS.   the latest?  node -v    npm -v
+ update your node version. go through the iinstaller.    node -v    new window   node -v  
+you now have the latest version of node and npm.  Installing node and npm on windows? this should
+be fun..... 
+
+There is no sudo command in Windows. The nearest equivalent is "run as administrator."
+
+You can do this using the runas command with an administrator trust-level, or by right-clicking the 
+program in the UI and choosing "run as administrator."
+
+we now have a json file.   it looks kind of like a javascript object. 
+Installing and using packages? -----   npm...  the react.js   package lives on npm.
+so we will be getting it from the npm registry   we can grab react.   live-server     lodash  
+two great packages.    for live-server   npm install -g live-server      for lodash  npm i --save lodash 
+two different ways of installing those packages.   npm allows you toinstall things two ways.   1. globally
+2. locally   -  what doees that mean?   local - its only able to run in this folder 
+global -  you can use the package anywhere on your computer.   -g   it gives you a command you can run on the 
+terminal.  npm install -g    to install globally.  to do this  you may need admin permissions (sudo )
+since we installed it globally it now lives on our computer (if we installed it locally we would see it in
+our folder.  )   now we can run live-server.    live-server    creates a fake server for you.  
+every time a change is made it sees it and updates the file  live.. e'g  css text0align left. 
+default localhost.    localhost:8080    ---- how cool is that?   livie-server is reallt cool. 
+
+a local package install?  -l   the lodash library is like an extension of javascript. it has a whole bunch 
+of functions.  npm install lodash    you can see it appears in your folder.   it installs locally. in the folder
+node_modules folder -- you can see that lodash was installed... json  will add the package we installed to 
+"dependencies"  in our .json  file. 
+import is a new synthax that browsers havent gotten around to using.   lets test some lodash methods. 
+
+all our locally installed modules live in the node_modules   folder    we can use the require command 
+thanks to browserify (remember)   npm install -g browserify      import synthax for ES6 we can use that with
+webpack but that is for the next section.  require synthax 
+var_ =  require('lodash');   console.log(_);      before newer  (ES6 + webpack) 
+(ES6 + webpack) =   import {without} from 'lodash' ; 
+console.log (without);     this wont work until we have webpack ad es6 (try it in the console. )   
+remember browserify is a bundler   so we can do     browserify script.js > bundle.js       to say that our 
+script.js file should be bundle.js            we installed browserify globally so now we can use commands with it. 
+
+it has created for us a bundle..js file that translattes our script.js file so the browser understands it.
+now do script  src="bundle.js"  in your html file.  and there we go.   
+
+we need to use browserify to bundle our code again when we make changes.
+a system where you can import all these different things tht people have written to make our code better. 
+the  .without  method from lodash.  with npm -  installing packages.   think about how much weight you. Your 
+project now has more dependencies.  package.json is very useful.   it shows all  the packages the project depends 
+on. Semver - semantic versioning  -  naming, each number has a meaning.   version.  4.17.4   .4 - means the patch
+release (bug fixes)  ....  17 - means the minor release (new features)    4 - means a major change (a major 
+release)         npm makes thing smuch easier to share between developers. 
+are adding to your project.   npm install   in the project folder and this installs all the latest versions of
+ the packages (dependencies)  this is awesome. for seommeone newly joining the project. all the node modules 
+ are described in package.json  so we dont need the node_modules folder on gitHub.    
+ dev-dependencies   are packages that are only needed for development and testing. (they will never be shipped 
+ with the product.)   dev-dependencies are another type of dependency. 
+ npm run test  -- to run the test script from package.json    ---- npm scripts allow you to do commands. From 
+ the package.json file.   you can run a build script that automatically runs browserify in your terminal. 
+ npm run build            then boom it runs the script!!   and you can add the live-server command to it  
+ && live-server

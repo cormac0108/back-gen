@@ -1,0 +1,15 @@
+
+react has webpack underneath the hood so it does the bundling of code for us.  import React from 'react';
+react is a view library. react dom can be used to render to DOM sites. react native can be used to render 
+to mobile phones.   
+i want the reactdom package to use the function render   and it renders whatever is in the parameters . 
+destructuring: import {component}    also /app.js    make sure you change your files to javacsript babel. 
+
+component has the rule that it must render something.  creating your own custom components.  one parent that 
+has children. if your building a component it should be capitalized e.g Hello 
+cra is so aweomse  it shows you exactly what the errors are.   
+export default Hello   to export the class / component.   dfault meaning one thing. 
+within the render function we tell it what we want to return.   now test your website in the browser (using
+live-server)   tada!  we just created our very first react component.  return expects a single thing
+you cant give it multiple lines.   the cool tachyons css package.   predefined things   
+npm install tachyons

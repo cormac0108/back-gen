@@ -12,4 +12,14 @@ export default Hello   to export the class / component.   dfault meaning one thi
 within the render function we tell it what we want to return.   now test your website in the browser (using
 live-server)   tada!  we just created our very first react component.  return expects a single thing
 you cant give it multiple lines.   the cool tachyons css package.   predefined things   
-npm install tachyons
+npm install tachyons   now import tachyons in your index.js  file.   
+tachyons style input.   search it. inline styles       class = " f1 tc"   f1 = font 1 and tc = text-center
+npm start        in the terminal  to make sure your server is running.    one trick  react is great at giving 
+you errors. why className  instead of class   on your component?    JSX  -  it allows you to write this 
+html like synthax.  in a js file!   inreact   each component is its own sepearate universe.  
+separation of concerns?     react uses JSX to create their virtual DOM.   as long as you wrap it in 
+brackets   return ()   we can use html   class is a reserved keyword in Js  so just do className. 
+we can add props   to our render.    you now have access in hello.js  to props.  greeting. {this.props.greeting} 
+this = this object   props = has properties   greetings = which is greetings.   
+the synthax may be confusing but in reality this is just a function.   its just functions.  react - we 
+are creating functions that take parameters.   
